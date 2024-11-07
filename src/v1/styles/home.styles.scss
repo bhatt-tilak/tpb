@@ -1,0 +1,59 @@
+// all children of .v1-main-container
+$base-color : #F4E661;
+
+
+.v1-main-grid {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+}
+
+.section-left {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+
+    &__first-name {
+        font-size: 100px;
+        font-weight: 800;
+        justify-self: end;
+        position: relative;
+        top: -10px;
+        left: 40px;   
+    }
+
+    &__selfie{
+        width: 341px;
+        height: 365px;
+        position: relative;
+
+        img{
+            position: absolute;
+            z-index: 1;
+            width: 341px;
+            height: 365px;
+        }
+
+        &::before{
+            content: '';
+            position: absolute;
+            top: -24px;
+            left: 0px;
+            width: 322px;
+            height: 327px;
+            border: 20px solid yellow;
+        }
+    
+        
+    }
+
+    &__last-name {
+        font-size: 100px;
+        font-weight: 800;
+        justify-self: end;
+        position: relative;
+        top: -54px;
+        left: -54px;
+    
+    }
+}
+
+

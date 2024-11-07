@@ -1,20 +1,14 @@
 
-import './styles.css'
+
+import Home from './pages/Home';
+import './styles.scss'
 
 const VersionOne = () => {
 
     return (
-        <div className="main-container">
-            
-            <div className="section-left">
-
-                <h1>Tilak Bhatt</h1>
-                <h2>Frontend Developer</h2>
-            </div>
-
-            <div className="section-right">
-                
-            </div>
+        <div className="v1-main-container">
+            {/* Later Add Router Here for navigation purpose */}
+            <Home />
         </div>
     )
 }
