@@ -60,8 +60,8 @@ $base-color : #F4E661;
             line-height: 75px;
             font-weight: 800;
             position: relative;
-            margin-left: -5px;
-            margin-top: -5px;    
+            margin-left: -4px;
+            margin-top: 8px; 
         }
     }
 
@@ -80,7 +80,7 @@ $base-color : #F4E661;
             cursor: pointer;
             background-color: $base-color;
             padding: 10px 20px;
-            width: 150px;
+            width: 200px;
             font-family: 'Courier New', Courier, monospace;
         }   
         p:nth-child(1):hover{

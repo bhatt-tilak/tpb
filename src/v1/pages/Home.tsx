@@ -41,7 +41,7 @@ const Home = () => {
             </div>
             </div>
             <div className='section-right'>
-                <div>
+                {/* <div>
                     <p>ABOUT</p>
                 </div>
                 <div>
@@ -54,7 +54,7 @@ const Home = () => {
                     <p>
                         <a href='https://programmingphile.com' target='_blank' rel="noreferrer">PROGRAMMINGPHILE</a>
                     </p>
-                </div>
+                </div> */}
             </div>
         </div>
     )
